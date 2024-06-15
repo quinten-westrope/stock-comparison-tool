@@ -15,7 +15,7 @@ import { useState } from 'react';
 
 const HomeScreen = () => {
     const theme = useTheme();
-    
+
     const actionRef = React.useRef(null);
 
     const scrollToAction = () => {
@@ -93,9 +93,15 @@ const HomeScreen = () => {
             </Box>
 
             {/* Scrolls to second page */}
-            <Box sx={{ height: '100vh' }} />
+            <Box
+                sx={{
+                    height: '100vh',
+                    [theme.breakpoints.down('sm')]: {
+                        height: '80vh',
+                    },
+                }}
+            />
             <div ref={actionRef} />
-
         </Box>
     );
 };
