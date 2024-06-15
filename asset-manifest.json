@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/stock-comparison-tool/static/css/main.652cb574.css",
-    "main.js": "/stock-comparison-tool/static/js/main.8e41e0b6.js",
+    "main.js": "/stock-comparison-tool/static/js/main.61183199.js",
     "static/js/453.62afb94d.chunk.js": "/stock-comparison-tool/static/js/453.62afb94d.chunk.js",
     "index.html": "/stock-comparison-tool/index.html",
     "main.652cb574.css.map": "/stock-comparison-tool/static/css/main.652cb574.css.map",
-    "main.8e41e0b6.js.map": "/stock-comparison-tool/static/js/main.8e41e0b6.js.map",
+    "main.61183199.js.map": "/stock-comparison-tool/static/js/main.61183199.js.map",
     "453.62afb94d.chunk.js.map": "/stock-comparison-tool/static/js/453.62afb94d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.652cb574.css",
-    "static/js/main.8e41e0b6.js"
+    "static/js/main.61183199.js"
   ]
 }
