@@ -15,6 +15,7 @@ import { useState } from 'react';
 
 const HomeScreen = () => {
     const theme = useTheme();
+    
     const actionRef = React.useRef(null);
 
     const scrollToAction = () => {

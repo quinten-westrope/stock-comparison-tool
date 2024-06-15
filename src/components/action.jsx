@@ -1,9 +1,5 @@
 import * as React from 'react';
-import Card from '@mui/material/Card';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-import { CardActionArea } from '@mui/material';
 import Box from '@mui/material/Box';
 import { useTheme } from '@mui/material/styles';
 import { IconButton, Drawer, List, ListItem, ListItemIcon, ListItemText, Button, Tooltip, Modal} from "@mui/material";
@@ -17,6 +13,9 @@ import AddIcon from '@mui/icons-material/Add';
 import CloseIcon from '@mui/icons-material/Close';
 
 const Action = () => {
+
+    const theme = useTheme();
+
     const [symbol, setSymbol] = useState('');
     const [startDate, setStartDate] = useState(dayjs());
     const [endDate, setEndDate] = useState(dayjs());
@@ -44,6 +43,11 @@ const Action = () => {
             justifyContent: 'center',
             minHeight: '100vh',
             position: 'relative',
+            
+            [theme.breakpoints.down('sm')]: {
+                marginTop: '10rem',
+            },
+            
         }}>
 
             <Container maxWidth="sm">
