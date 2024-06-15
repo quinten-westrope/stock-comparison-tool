@@ -97,7 +97,7 @@ const HomeScreen = () => {
                 sx={{
                     height: '100vh',
                     [theme.breakpoints.down('sm')]: {
-                        height: '80vh',
+                        height: '70vh',
                     },
                 }}
             />
